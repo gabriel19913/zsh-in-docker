@@ -103,10 +103,6 @@ POWERLEVEL9K_STATUS_CROSS=true
 EOM
 }
 
-if [ "$INSTALL_DEPENDENCIES" = true ]; then
-    install_dependencies
-fi
-
 cd /tmp
 
 # Install On-My-Zsh
